@@ -14,7 +14,7 @@ def all_articles(request):
 
 def article_n(request):
     i = int(request.path.split("/")[-1])
-    article = Article.objects.all()[i-1]
+    article, = Article.objects.filter(id=i)
     context = {
         "article": article,
         "comments": article.get_articles()
