@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4717ebb-f104-4116-b248-eb1730d88b44" name="Changes" comment="mysite 2.2">
-      <change afterPath="$PROJECT_DIR$/mysite/flights/templates/airports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project2/blog/templates/all_articles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project2/blog/templates/article_n.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project2/blog/urls.py" afterDir="false" />
+    <list default="true" id="f4717ebb-f104-4116-b248-eb1730d88b44" name="Changes" comment="project2.1">
+      <change afterPath="$PROJECT_DIR$/mysite/flights/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/flights/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/flights/templates/date_filter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/user/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/user/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/user/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/user/templates/register_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/app/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/flights/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/flights/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/flights/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/flights/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/flights/templates/airports.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/flights/templates/airports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/flights/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/flights/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/flights/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/flights/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/flights/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/flights/views.py" afterDir="false" />
     </list>
@@ -62,7 +71,21 @@
       <option name="presentableId" value="Default" />
       <updated>1657542334822</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="project2">
+      <created>1657623431712</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657623431712</updated>
+    </task>
+    <task id="LOCAL-00003" summary="project2.1">
+      <created>1657641874093</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657641874093</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,6 +101,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mysite 2.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="mysite 2.2" />
+    <MESSAGE value="project2" />
+    <MESSAGE value="project2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="project2.1" />
   </component>
 </project>

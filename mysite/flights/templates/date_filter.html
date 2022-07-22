@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% if date %}
+        <p>Вылеты с даты {{date}}</p>
+        {% for flight in flights %}
+            <p>{{flight}}</p>
+        {% endfor %}
+    {% endif %}
+</body>
+</html>
