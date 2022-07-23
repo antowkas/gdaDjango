@@ -5,6 +5,7 @@ from django.db import models
 class Article(models.Model):
     heading = models.CharField(max_length=100, verbose_name="Заголовок")
     text = models.TextField(verbose_name="Текст")
+    slug = models.SlugField(verbose_name="ЧПУ", blank=True, null=True, unique=True)
 
     def __str__(self):
         return f"Статья \"{self.heading}\""

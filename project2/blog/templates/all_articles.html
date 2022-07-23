@@ -1,15 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Список статей</title>
-</head>
-<body>
+{% extends 'base.html' %}
+
+{% block title %}Список статей{% endblock %}
+{% block body %}
     <h1>Статьи на сайте:</h1>
+    {% if user.is_authenticated %}
+        <form action="{% url 'blog:heading_filter' %}" method="GET">
+            <label for="heading">Поиск: </label>
+            <input type="text" id="heading" name="heading">
+            <button type="submit">Submit</button>
+        </form>
+    {% endif %}
     <ol>
         {% for article in articles %}
-            <li><a href="../article/{{article.id}}" >{{ article }}</a></li>
+            <li><a href="../article/{{article.slug}}" >{{ article }}</a></li>
         {% endfor %}
     </ol>
-</body>
-</html>
+{% endblock %}

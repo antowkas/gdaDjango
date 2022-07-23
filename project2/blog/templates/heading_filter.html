@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Поиск</title>
+</head>
+<body>
+    {% if heading %}
+        <p>Результаты поиска по запросу: "{{heading}}"</p>
+        {% for article in articles %}
+            <p>{{article}}</p>
+        {% endfor %}
+    {% endif %}
+</body>
+</html>
