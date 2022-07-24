@@ -8,7 +8,7 @@ admin.site.register(Comment)
 class CommentAdminInline(admin.TabularInline):
     model = Comment
     fk_name = "article"
-    extra = 1
+    extra = 3
 
 
 @admin.register(Article)
