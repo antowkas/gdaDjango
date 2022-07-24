@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Logins</title>
+</head>
+<body>
+  <h1>Login</h1>
+  <p>Нет учётной записи? <a href="{% url 'users:register' %}">Зарегистрируйтесь</a>.</p>
+  <p>Заполните форму для входа в учетную запись:</p>
+  <form action="." method="post">
+    {{ form }}
+    {% csrf_token %}
+    <p><input type="submit" value="login"></p>
+  </form>
+</body>
+</html>
